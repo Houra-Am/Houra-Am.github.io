@@ -1,0 +1,213 @@
+body {
+    font-family: poppins;
+    margin: 0px;
+}
+
+
+/* Nav bar */
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu {
+    color: white;
+    background-color: #0475ba;
+}
+
+a {
+    color: white;
+}
+
+nav h2 {
+    margin: 0px;
+    padding: 20px 0px 20px 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 24px;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 15px;
+}
+
+
+/* Nav bar */
+
+
+/* Introduction section */
+
+header {
+    text-align: center;
+    padding: 40px;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+}
+
+header h2 {
+    font-size: 1rem;
+    color: #0475ba
+}
+
+header img {
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: 3px 3px 6px rgb(170, 170, 170);
+}
+
+section {
+    padding: 40px;
+}
+
+#introduction h1 {
+    font-size: 2rem;
+}
+
+#profile a {
+    font-size: 0.9rem;
+}
+
+
+/* Introduction section */
+
+
+/* Experience section */
+
+.first-part {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.first-part-xp h4 {
+    margin-top: 0px;
+}
+
+.second-part {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.second-part-xp h4 {
+    margin-top: 21px;
+}
+
+.second-part-date {
+    margin-top: 21px;
+}
+
+#xp h3 {
+    color: #0475ba
+}
+
+#xp ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#xp li {
+    margin-bottom: 0px;
+    line-height: 2;
+}
+
+
+/* Experience section */
+
+
+/* Education section */
+
+#education {
+    margin: 0px;
+    padding: 40px;
+}
+
+#education li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#education ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#education aside {
+    float: right;
+}
+
+
+/* Education section */
+
+
+/* Extra-info section */
+
+#extra-info h3 {
+    color: #0475ba
+}
+
+
+/* Extra-info section */
+
+
+/* Footer-section.menu */
+
+footer {
+    height: 100px;
+    margin: 0px;
+    padding: 40px;
+}
+
+footer ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.links-left {
+    margin-top: 20px;
+    float: left;
+    text-align: left;
+}
+
+.links-right {
+    margin-top: 20px;
+    float: right;
+    text-align: right;
+}
+
+
+/* Footer-section.menu */
+
+@media (min-width: 768px) {
+    #introduction {
+        display: block;
+    }
+    #profile {
+        display: block;
+    }
+    #xp {
+        display: block;
+    }
+    #education {
+        display: block;
+    }
+    #extra-info {
+        display: block;
+    }
+    #contact-me {
+        display: block;
+    }
+}
